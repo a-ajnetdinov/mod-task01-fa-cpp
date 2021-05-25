@@ -2,7 +2,7 @@
 
 unsigned int faStr1(const char* str)
 {
-    int i = 0, count = 0;
+	int i = 0, count = 0;
 	bool word = false;
 	bool num = false;
 	while (str[i] != '\0')
@@ -25,7 +25,7 @@ unsigned int faStr1(const char* str)
 }
 unsigned int faStr2(const char* str)
 {
-    int i = 0, count = 0;
+	int i = 0, count = 0;
 	bool word = false;
 	bool UP = false;
 	while (str[i] != '\0')
@@ -55,7 +55,7 @@ unsigned int faStr2(const char* str)
 }
 unsigned int faStr3(const char* str)
 {
-    int i = 0;
+	int i = 0;
 	bool word = false;
 	double Chars = 0, Words = 0;
 	while (str[i] != '\0')
